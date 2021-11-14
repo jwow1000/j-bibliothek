@@ -5,13 +5,13 @@
 #X obj 227 229 pow 2;
 #X obj 113 224 *~;
 #X obj 178 102 vsl 40 60 0 127 0 0 empty empty empty 0 -9 0 10 -175101
--1 -1 0 1;
+-1 -1 5000 1;
 #X obj 105 103 bng 30 250 50 0 empty empty MUTE 35 20 0 10 -262144
 -1 -1;
 #X msg 178 56 0;
 #X obj 159 179 inlet~;
 #X obj 159 222 *~;
-#N canvas 0 23 450 300 safety 0;
+#N canvas 0 25 450 300 safety 0;
 #X obj 41 19 inlet~;
 #X obj 41 39 env~;
 #X obj 41 63 >= 109;
@@ -40,6 +40,9 @@
 #X obj 230 181 catch~ main-outR;
 #X text 271 155 stereo out;
 #X obj 227 250 lop~ 1000;
+#X obj 465 344 vu 15 120 empty empty -1 -8 0 10 -66577 -1 1 0;
+#X obj 298 378 outlet~;
+#X obj 365 378 outlet~;
 #X connect 1 0 4 0;
 #X connect 1 0 10 0;
 #X connect 2 0 3 0;
@@ -60,7 +63,9 @@
 #X connect 18 0 20 0;
 #X connect 19 0 21 0;
 #X connect 23 0 4 0;
+#X connect 23 0 28 0;
 #X connect 24 0 9 0;
+#X connect 24 0 29 0;
 #X connect 26 0 4 1;
 #X connect 26 0 9 1;
 #X coords 0 -1 1 1 120 65 2 100 100;

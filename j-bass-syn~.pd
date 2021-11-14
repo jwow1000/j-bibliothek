@@ -1,4 +1,4 @@
-#N canvas 273 179 888 642 12;
+#N canvas 0 25 868 626 12;
 #X obj 30 26 inlet;
 #X text 75 25 note pair;
 #X obj 30 50 t a a, f 30;

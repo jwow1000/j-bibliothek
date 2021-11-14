@@ -171,7 +171,7 @@
 #X obj 593 304 r \$0-gui-write;
 #X obj 320 292 t a a;
 #X floatatom 205 118 5 0 0 0 of: - -;
-#N canvas 0 23 450 300 count 0;
+#N canvas 0 25 450 300 count 1;
 #X obj 91 97 r \$0-total;
 #X obj 91 150 f;
 #X obj 127 149 + 1;
@@ -187,7 +187,7 @@
 #X connect 4 0 5 0;
 #X connect 5 0 7 0;
 #X connect 7 0 6 0;
-#X restore 212 49 pd count;
+#X restore 205 43 pd count;
 #X connect 0 0 1 0;
 #X connect 1 0 27 0;
 #X connect 1 1 12 0;

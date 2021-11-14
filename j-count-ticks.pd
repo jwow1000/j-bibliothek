@@ -5,7 +5,7 @@
 #X obj 532 138 inlet;
 #X obj 11 153 spigot 0;
 #X text 574 139 messages;
-#X obj 579 402 s \$0-start;
+#X obj 595 240 s \$0-start;
 #X obj 142 31 f 1;
 #X obj 709 376 s \$0-stop;
 #X obj 56 38 r \$0-stop;
@@ -54,7 +54,7 @@
 #X obj 786 370 f 0;
 #X obj 38 304 r \$0-erase;
 #X obj 723 186 t b b;
-#X obj 579 347 t b b b;
+#X obj 595 185 t b b b;
 #X obj 339 188 f 0;
 #X obj 339 209 s \$0-erase;
 #X obj 142 58 t f f b, f 21;
