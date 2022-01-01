@@ -1,0 +1,14 @@
+#N canvas 433 25 989 604 12;
+#X obj 33 21 inlet;
+#X text 81 24 messages;
+#X obj 33 166 soundfiler;
+#X obj 398 66 array define \$1-\$2-L;
+#X obj 398 95 array define \$1-\$2-R;
+#X text 550 64 default mono;
+#X obj 33 136 list trim;
+#X obj 33 112 list append \$1-\$2-L \$1-\$2-R;
+#X obj 33 88 list prepend read -resize;
+#X connect 0 0 8 0;
+#X connect 6 0 2 0;
+#X connect 7 0 6 0;
+#X connect 8 0 7 0;

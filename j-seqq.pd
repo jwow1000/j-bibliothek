@@ -26,7 +26,7 @@ note info;
 #X connect 5 0 1 0;
 #X restore 272 289 pd place;
 #X obj 157 347 text insert \$0-temp;
-#N canvas 347 25 1026 807 play 0;
+#N canvas 352 25 1026 807 play 0;
 #X obj 35 16 inlet;
 #X obj 357 309 + 1;
 #X obj 285 364 text get \$0-temp;

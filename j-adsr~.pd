@@ -42,6 +42,7 @@
 #X obj 491 235 f \$1;
 #X obj 593 244 f \$2;
 #X obj 703 239 f \$3;
+#X text 568 47 Simple adsr~;
 #X connect 0 0 28 0;
 #X connect 1 0 40 1;
 #X connect 2 0 41 1;

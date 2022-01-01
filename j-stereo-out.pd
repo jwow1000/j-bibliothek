@@ -5,7 +5,7 @@
 #X obj 227 229 pow 2;
 #X obj 113 224 *~;
 #X obj 178 102 vsl 40 60 0 127 0 0 empty empty empty 0 -9 0 10 -175101
--1 -1 5000 1;
+-1 -1 0 1;
 #X obj 105 103 bng 30 250 50 0 empty empty MUTE 35 20 0 10 -262144
 -1 -1;
 #X msg 178 56 0;
