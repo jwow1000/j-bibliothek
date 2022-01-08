@@ -78,7 +78,7 @@
 #X msg 390 185 1 8;
 #X msg 428 185 0 8;
 #X obj 587 599 pow~ 2;
-#N canvas 5 25 1294 692 messages 0;
+#N canvas 5 25 1294 692 messages 1;
 #X obj 37 37 inlet;
 #X obj 38 346 s \$0-pitch;
 #X obj 72 314 s \$0-chunk-size;
