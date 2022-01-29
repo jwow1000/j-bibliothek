@@ -1,4 +1,4 @@
-#N canvas 148 99 450 300 12;
+#N canvas 374 450 450 300 12;
 #X obj 19 12 inlet;
 #N canvas 425 64 658 600 messages 0;
 #X obj 37 37 inlet;
