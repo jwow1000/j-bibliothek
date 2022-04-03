@@ -74,7 +74,6 @@
 #X connect 6 0 7 1;
 #X connect 7 0 0 0;
 #X restore 358 191 pd sample-size;
-#X obj 358 215 print huh;
 #X connect 0 0 5 0;
 #X connect 1 0 2 0;
 #X connect 5 0 9 0;
@@ -87,4 +86,3 @@
 #X connect 8 0 1 0;
 #X connect 9 0 1 0;
 #X connect 10 0 1 0;
-#X connect 10 0 11 0;

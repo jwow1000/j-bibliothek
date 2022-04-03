@@ -1,0 +1,6 @@
+#N canvas 308 247 450 300 12;
+#X obj 30 26 inlet;
+#X text 196 37 arg 1: which part of list \, index;
+#X obj 30 58 list split \$1;
+#X obj 71 89 list split \$1;
+#X connect 0 0 2 0;

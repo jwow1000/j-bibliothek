@@ -22,6 +22,7 @@
 #X obj 124 14 inlet~;
 #X obj 26 208 outlet~;
 #X obj 125 208 outlet~;
+#X text 24 244 pass through;
 #X connect 1 0 7 0;
 #X connect 2 0 4 0;
 #X connect 3 0 16 0;
