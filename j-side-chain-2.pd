@@ -1,4 +1,4 @@
-#N canvas 103 251 821 627 12;
+#N canvas 103 245 821 627 12;
 #X obj 27 13 inlet~ L-audio;
 #X obj 169 13 inlet~ R-audio;
 #X obj 675 13 inlet mess;
@@ -12,7 +12,7 @@
 #X obj 45 58 r \$0-lef-chn;
 #X obj 318 162 *, f 8;
 #X obj 371 135 r amount-\$0;
-#N canvas 0 23 450 300 messages 0;
+#N canvas 0 25 450 300 messages 0;
 #X obj 37 37 inlet;
 #X obj 37 60 route amount;
 #X obj 37 83 s amount-\$0;
@@ -29,11 +29,11 @@
 #X msg 477 214 1 \$1;
 #X obj 27 549 outlet~ left;
 #X obj 169 549 outlet~ right;
-#X floatatom 662 227 5 0 0 0 - - -;
+#X floatatom 662 227 5 0 0 0 - - - 0;
 #X obj 662 249 * 64;
-#X floatatom 662 272 5 0 0 0 - - -;
+#X floatatom 662 272 5 0 0 0 - - - 0;
 #X obj 662 294 / 2;
-#X floatatom 662 317 5 0 0 0 - - -;
+#X floatatom 662 317 5 0 0 0 - - - 0;
 #X obj 318 360 s \$0-lef-chn;
 #X obj 477 357 s \$0-rig-chn;
 #X msg 318 316 \$1 1;
