@@ -1,6 +1,6 @@
-#N canvas 374 450 450 300 12;
+#N canvas 374 450 632 300 12;
 #X obj 19 12 inlet;
-#N canvas 425 64 658 600 messages 1;
+#N canvas 425 64 658 600 messages 0;
 #X obj 37 37 inlet;
 #X text 356 51 load and save paths to samples;
 #X obj 360 78 r \$0-2-text;
@@ -136,9 +136,10 @@
 #X restore 19 36 pd messages;
 #X text 160 27 Arg1 = sample bank name;
 #X text 160 54 Arg2 = how many samples;
-#X obj 19 206 clone -s 1 \$2 j-sample-bank-voice \$1;
-#X text 160 81 Arg3 = path to textfile to save paths;
 #X msg 53 159 vis 2 1;
+#X obj 19 206 clone -s 1 \$2 sample-bank-voice \$1;
+#X text 160 81 Arg3 = path to textfile to save paths(use absolute for
+safety);
 #X connect 0 0 1 0;
-#X connect 1 0 4 0;
-#X connect 6 0 4 0;
+#X connect 1 0 5 0;
+#X connect 4 0 5 0;
